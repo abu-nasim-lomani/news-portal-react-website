@@ -1,0 +1,31 @@
+.logo{
+    margin-left: 100px;
+    justify-content:center;
+}
+.nav{
+    height:50px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    background-color: lightsteelblue;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin-right: 100px;
+
+}
+.nav ul li{
+    margin-left: 30px;
+    font-weight:500;
+}
+.nav ul li:hover{
+    border-bottom: 2px solid goldenrod;
+    cursor: pointer;
+    font-weight:500;
+}
+.MuiSvgIcon-root{
+    color: lightseagreen;
+}
